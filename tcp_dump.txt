@@ -1,0 +1,13 @@
+***
+run command as root to capture the dump results into a file on your system. 
+add the interface as a parameter to get more granular.
+
+***
+Desc
+---you can run 'sudo tcpdump -D' to see a list of interfaces on your os
+add your desired interface after '-i' argument 
+
+
+Command
+
+sudo tcpdump -r captured_packets.pcap -i eth0
